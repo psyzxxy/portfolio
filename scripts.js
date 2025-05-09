@@ -48,15 +48,14 @@ const modalContent = document.getElementById('modal-content');
 function showProjectDetails(projectId) {
   const projects = {
     1: {
-      title: "E-commerce API Platform",
+      title: "sel and buy using laravel",
       description: "A comprehensive RESTful API designed for e-commerce applications...",
       challenges: "Handling high traffic loads and ensuring data consistency...",
-      technologies: ["PHP 8.1", "Laravel 9", "MySQL", "Redis", "Docker", "Nginx", "JWT Authentication"],
+      technologies: ["PHP 8.1", "Laravel 9", "MySQL","Javascript"],
       features: [
         "User authentication and authorization with role-based access control",
         "Product catalog with categories, attributes, and inventory management",
-        "Shopping cart and wishlist functionality",
-        "Order processing with multiple payment options",
+        "Shopping cart and wishlist functionality"s,
         "Real-time inventory updates",
         "Comprehensive admin dashboard",
         "Analytics and reporting"
